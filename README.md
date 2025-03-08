@@ -30,3 +30,9 @@
 ![image](https://github.com/user-attachments/assets/8db039d6-2ff1-4336-ab0d-1ee5a0afca98)
   - Our step 6 requires us to run our **Internet Information Services** (IIS) as an **Administrator**, navigating to the PHP Manager in order to setup the correct file path.
       <h4>Search > IIS > PHP Manager > Register new PHP version > C:\PHP\php-cgi.exe</h4>
+      
+![image](https://github.com/user-attachments/assets/654e3cb8-042e-4415-ac44-d4b9c7648fe8)
+  - Next, we will unzip our osTicket File located inside our osTicket-Installation-Files. Copy the upload folder, and navigate to the following:
+    <h4>This PC > Windows (C:) > inetpub > wwwroot > Right Click and Paste</h4>
+    
+    Make sure to rename this **upload** folder to **osTicket** within the **wwwroot** file.
