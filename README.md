@@ -34,5 +34,16 @@
 ![image](https://github.com/user-attachments/assets/654e3cb8-042e-4415-ac44-d4b9c7648fe8)
   - Next, we will unzip our osTicket File located inside our osTicket-Installation-Files. Copy the upload folder, and navigate to the following:
     <h4>This PC > Windows (C:) > inetpub > wwwroot > Right Click and Paste</h4>
-    
     Make sure to rename this **upload** folder to **osTicket** within the **wwwroot** file.
+    
+![image](https://github.com/user-attachments/assets/bd285aef-f557-40ec-8fdd-85ec90ea95a7)
+  - For our step 8 we will begin by restarting our IIS Manager, reopening as admninistrator and navigating to the following:
+    <h4>Sites > Default Web Site > osTicket > PHP Manager > Enable/Disable an Extension > Enable: php_imap.dll, php_intl.dll & php_opcache.dll</h4>
+
+![image](https://github.com/user-attachments/assets/1ea7fc37-d972-471c-b664-e0867e132dfd)
+  - On step 9, we will navigate to our **ost-sampleconfig.php** file and rename it to **ost-config.php**: 
+    <h4>This PC > Windows (C:) > inpetpub > wwwroot > osTicket > include > ost-sampleconfig.php</h4>
+    
+![image](https://github.com/user-attachments/assets/374398dd-e69e-4335-b21b-e9876ff88f50)
+  - Next, we will edit our osTicket permissions to Everyone:
+    <h4>This PC > Windows (C:) > inpetpub > wwwroot > osTicket > include > ost-config.php > Properties > Security > Advanced > Disable Inheritance > Remove All > Add > Select a principal >           Everyone > Check Names + Ok</h4>
