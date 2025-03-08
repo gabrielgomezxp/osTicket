@@ -47,8 +47,10 @@
 ![image](https://github.com/user-attachments/assets/374398dd-e69e-4335-b21b-e9876ff88f50)
   - Next, we will edit our osTicket permissions to Everyone:
     <h4>This PC > Windows (C:) > inpetpub > wwwroot > osTicket > include > ost-config.php > Properties > Security > Advanced > Disable Inheritance > Remove All > Add > Select a principal >           Everyone > Check Names and Allow Full Control</h4>
+    
 ![image](https://github.com/user-attachments/assets/02615643-833c-4a9a-90f5-86aaf972a525)
   - For step 11 we will open up our **HeidiSQL Setup** in our **osTicket-Installation-Files** folder and create a database named **osTicket** using the created credentials we stated before, in this case (**root**).
+
 ![image](https://github.com/user-attachments/assets/156b1505-805b-4db6-9169-3de1217905d5)
   - Our last and final step is to head to our osTicket setup page and complete the installation on your browser using the information of your choice!
     http://localhost/osTicket/setup/install.php
