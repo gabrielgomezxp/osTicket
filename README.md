@@ -14,3 +14,13 @@
 ![image](https://github.com/user-attachments/assets/63d2657d-6412-4348-a863-98312896034b)
   - Step 4 includes creating a new folder in our **(C:)** drive named **PHP** and extracting our **zipped php file** into our created **PHP** folder.
     <h4>Browse > This PC > Windows (C:) > PHP</h4>
+    
+![image](https://github.com/user-attachments/assets/af8eced1-3bc1-4fcc-a10b-51c6a6595469)
+  - For step 5, we will begin installing the rest of our applications in the following order:
+    ```
+        1) VC_redist
+        2) mysql
+            a. Setup Type: Typical & Launch
+            b. Standard Configuration
+            c. Password: root (NOT ADVISED SECURITY SETTINGS!)
+    ```
