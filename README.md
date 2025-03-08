@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/3378cb45-1c9d-4c28-ba78-510395693b2e)<h3>In this lab we will be creating a osTicketing system using a Virtual Machine on Microsoft Azure.</h3>
+<h3>In this lab we will be creating a osTicketing system using a Virtual Machine on Microsoft Azure.</h3>
 
 ![osticket1](https://github.com/user-attachments/assets/d5426262-64ad-4457-b7fe-2fc65e12b4b4)
   - Our first step is to create a Virtual Machine that uses Windows 10 using Microsoft Azure, with a resource group named "osTicket" in order to easily identify our VM that will be hosting our ticketing system.
